@@ -48,3 +48,5 @@ plots/*
 # Logs
 *.log
 logs/ 
+
+trash/
