@@ -165,7 +165,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Laércio Lucchesi - laercio.lucchesi@gmail.com
 
-Project Link: [https://github.com/your-username/deep-learning-estimation](https://github.com/your-username/deep-learning-estimation)
+Project Link: [https://github.com/Project-GrADyS/DeepLearningEstimation](https://github.com/Project-GrADyS/DeepLearningEstimation)
 
 ## Citation
 
