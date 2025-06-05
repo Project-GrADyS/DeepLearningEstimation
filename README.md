@@ -2,6 +2,8 @@
 
 This project implements a deep learning approach to estimate key communication parameters in UAV swarms using high-level, easily measurable metrics. The system predicts communication failure rate and maximum communication range by leveraging formation stability indicators such as shape error, Raft leader absence, and presence consistency, combined with swarm size and estimated communication delay.
 
+![UAV Swarm Mission](uav_swarm_mission.gif)
+
 ## Description
 
 The project addresses the challenge of estimating communication parameters in UAV swarms through a data-driven approach. Key features include:
