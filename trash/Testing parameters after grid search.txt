@@ -1,0 +1,15 @@
+Testing parameters: {'hidden_size': 256, 'num_layers': 5, 'dropout_rate': 0.2, 'learning_rate': 0.01, 'weight_decay': 0.01, 'batch_size': 64, 'num_epochs': 200, 'patience': 20}
+Average validation loss: 0.6655
+New best parameters found! Loss: 0.6655
+
+Best parameters found:
+hidden_size: 256
+num_layers: 5
+dropout_rate: 0.2
+learning_rate: 0.01
+weight_decay: 0.01
+batch_size: 64
+num_epochs: 200
+patience: 20
+Best validation loss: 0.6655
+
