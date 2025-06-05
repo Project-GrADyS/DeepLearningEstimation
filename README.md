@@ -47,7 +47,7 @@ tqdm>=4.62.0
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/deep-learning-estimation.git
+git clone https://github.com/Project-GrADyS/DeepLearningEstimation.git
 cd deep-learning-estimation
 ```
 
