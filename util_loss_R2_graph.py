@@ -23,9 +23,9 @@ for i, window in enumerate(window_sizes):
     window_data = df[df['Windows'] == window]
     
     # Calculate means for each model type
-    short_loss[i] = window_data[window_data['Mode'] == 'short']['Test Loss (mean)'].mean()
-    linear_loss[i] = window_data[window_data['Mode'] == 'linear']['Test Loss (mean)'].mean()
-    long_loss[i] = window_data[window_data['Mode'] == 'long']['Test Loss (mean)'].mean()
+    short_loss[i] = window_data[window_data['Mode'] == 'short']['Validation Loss (mean)'].mean()
+    linear_loss[i] = window_data[window_data['Mode'] == 'linear']['Validation Loss (mean)'].mean()
+    long_loss[i] = window_data[window_data['Mode'] == 'long']['Validation Loss (mean)'].mean()
     
     short_r2[i] = window_data[window_data['Mode'] == 'short']['R2 Score (mean)'].mean()
     linear_r2[i] = window_data[window_data['Mode'] == 'linear']['R2 Score (mean)'].mean()
@@ -62,7 +62,7 @@ color_best = '#006400'  # Dark green
 
 # Configure shared x-axis
 ax1.set_xlabel('Windows')
-ax1.set_ylabel('Test Loss (mean)')
+ax1.set_ylabel('Validation Loss (mean)')
 ax1.set_xlim(min(window_sizes)-0.5, max(window_sizes)+0.5)  # Adjust limits for better visualization
 ax1.set_xticks(window_sizes)
 ax1.grid(True, alpha=0.3)
@@ -104,7 +104,7 @@ labels = [l.get_label() for l in lines]
 plt.legend(lines, labels, bbox_to_anchor=(1.15, 0.5), loc='center left')
 
 # Title
-plt.title('Test Loss and $R^2$ Score vs Windows')
+plt.title('Validation Loss and $R^2$ Score vs Windows')
 
 # Adjust layout
 plt.tight_layout()
