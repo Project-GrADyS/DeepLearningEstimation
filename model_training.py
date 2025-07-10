@@ -955,7 +955,7 @@ def main():
     """
     # Configuration
     DATASET_PATH = "dataset.npz"
-    HIDDEN_SIZES = [256, 128,64, 32]
+    HIDDEN_SIZES = [256, 128, 64, 32]
     DROPOUT_RATE = 0.1
     BATCH_SIZE = 64
     NUM_EPOCHS = 1000
